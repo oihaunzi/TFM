@@ -10,7 +10,13 @@ The code and dataset for the paper ***HOLMES & WATSON: A Robust and Lightweight 
 If you find this repo useful, please cite our paper.
 
 ```bibtex
-TBD
+@inproceedings{cheng2025holmes,
+  title={HOLMES \& WATSON: A Robust and Lightweight HTTPS Website Fingerprinting through HTTP Version Parallelism},
+  author={Cheng, Yifei and Zhu, Yujia and Li, Baiyang and Sun, Peishuai and Ding, Yong and Deng, Xinhao and Liu, Qingyun},
+  booktitle={Proceedings of the ACM on Web Conference 2025},
+  pages={1078--1092},
+  year={2025}
+}
 ```
 
 
