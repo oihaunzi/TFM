@@ -1,0 +1,81 @@
+label,num_resources,protocols
+cloudflare-dns.com,H123-compact:
+cloudflare-dns.com,([1,"1, 1, 7, 1, 1, 2, 7, 6, 6, 6], ['h1', 'h3', 'h3', 'h3', 'h2', 'h2', 'h3', 'h2', 'h2', 'h2', 'h2'])"
+cloudflare-dns.com,H123:
+cloudflare-dns.com,[[1,"0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 7, 6, 6, 6], [0, 1, 1, 7, 0, 0, 2, 0, 0, 0, 0]]"
+cloudflare-dns.com,H123-compact:
+cloudflare-dns.com,([1,"1, 1, 7, 1, 1, 2, 7, 6, 5, 6], ['h1', 'h3', 'h3', 'h3', 'h2', 'h2', 'h3', 'h2', 'h2', 'h2', 'h2'])"
+cloudflare-dns.com,H123:
+cloudflare-dns.com,[[1,"0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 7, 6, 5, 6], [0, 1, 1, 7, 0, 0, 2, 0, 0, 0, 0]]"
+cloudflare-dns.com,H123-compact:
+cloudflare-dns.com,([1,"1, 1, 7, 1, 1, 2, 7, 6, 6, 7], ['h1', 'h3', 'h3', 'h3', 'h2', 'h2', 'h3', 'h2', 'h2', 'h2', 'h2'])"
+cloudflare-dns.com,H123:
+cloudflare-dns.com,[[1,"0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 7, 6, 6, 7], [0, 1, 1, 7, 0, 0, 2, 0, 0, 0, 0]]"
+cloudflare-dns.com,H123-compact:
+cloudflare-dns.com,([1,"1, 1, 7, 1, 1, 2, 7, 5, 5, 6, 1], ['h1', 'h3', 'h3', 'h3', 'h2', 'h2', 'h3', 'h2', 'h2', 'h2', 'h2', 'h1'])"
+cloudflare-dns.com,H123:
+cloudflare-dns.com,[[1,"0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1], [0, 0, 0, 0, 1, 1, 0, 7, 5, 5, 6, 0], [0, 1, 1, 7, 0, 0, 2, 0, 0, 0, 0, 0]]"
+cloudflare-dns.com,H123-compact:
+cloudflare-dns.com,([1,"1, 1, 7, 1, 1, 2, 7, 6, 5, 6], ['h1', 'h3', 'h2', 'h3', 'h2', 'h2', 'h3', 'h2', 'h2', 'h2', 'h2'])"
+cloudflare-dns.com,H123:
+cloudflare-dns.com,[[1,"0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 1, 1, 0, 7, 6, 5, 6], [0, 1, 0, 7, 0, 0, 2, 0, 0, 0, 0]]"
+cloudflare-dns.com,H123-compact:
+cloudflare-dns.com,([1,"1, 1, 7, 1, 1, 2, 7, 6, 5, 6], ['h1', 'h3', 'h3', 'h3', 'h2', 'h2', 'h3', 'h2', 'h2', 'h2', 'h2'])"
+cloudflare-dns.com,H123:
+cloudflare-dns.com,[[1,"0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 7, 6, 5, 6], [0, 1, 1, 7, 0, 0, 2, 0, 0, 0, 0]]"
+cloudflare-dns.com,H123-compact:
+cloudflare-dns.com,([1,"1, 1, 7, 1, 1, 2, 7, 6, 5, 6], ['h1', 'h3', 'h3', 'h3', 'h2', 'h2', 'h3', 'h2', 'h2', 'h2', 'h2'])"
+cloudflare-dns.com,H123:
+cloudflare-dns.com,[[1,"0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 7, 6, 5, 6], [0, 1, 1, 7, 0, 0, 2, 0, 0, 0, 0]]"
+cloudflare-dns.com,H123-compact:
+cloudflare-dns.com,([1,"1, 1, 7, 1, 1, 2, 7, 6, 5, 6], ['h1', 'h3', 'h3', 'h3', 'h2', 'h2', 'h3', 'h2', 'h2', 'h2', 'h2'])"
+cloudflare-dns.com,H123:
+cloudflare-dns.com,[[1,"0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 7, 6, 5, 6], [0, 1, 1, 7, 0, 0, 2, 0, 0, 0, 0]]"
+cloudflare-dns.com,H123-compact:
+cloudflare-dns.com,([1,"1, 1, 7, 1, 1, 2, 7, 6, 5, 6], ['h1', 'h3', 'h3', 'h3', 'h2', 'h2', 'h3', 'h2', 'h2', 'h2', 'h2'])"
+cloudflare-dns.com,H123:
+cloudflare-dns.com,[[1,"0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 7, 6, 5, 6], [0, 1, 1, 7, 0, 0, 2, 0, 0, 0, 0]]"
+cloudflare-dns.com,H123-compact:
+cloudflare-dns.com,([1,"1, 1, 7, 1, 1, 2, 7, 6, 6, 6], ['h1', 'h3', 'h3', 'h3', 'h2', 'h2', 'h3', 'h2', 'h2', 'h2', 'h2'])"
+cloudflare-dns.com,H123:
+cloudflare-dns.com,[[1,"0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 7, 6, 6, 6], [0, 1, 1, 7, 0, 0, 2, 0, 0, 0, 0]]"
+cloudflare-dns.com,H123-compact:
+cloudflare-dns.com,([1,"1, 1, 7, 1, 1, 2, 7, 5, 5, 6], ['h1', 'h3', 'h3', 'h3', 'h2', 'h2', 'h3', 'h2', 'h2', 'h2', 'h2'])"
+cloudflare-dns.com,H123:
+cloudflare-dns.com,[[1,"0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 7, 5, 5, 6], [0, 1, 1, 7, 0, 0, 2, 0, 0, 0, 0]]"
+cloudflare-dns.com,H123-compact:
+cloudflare-dns.com,([1,"1, 1, 7, 1, 1, 2, 7, 6, 6, 6], ['h1', 'h3', 'h3', 'h3', 'h2', 'h2', 'h3', 'h2', 'h2', 'h2', 'h2'])"
+cloudflare-dns.com,H123:
+cloudflare-dns.com,[[1,"0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 7, 6, 6, 6], [0, 1, 1, 7, 0, 0, 2, 0, 0, 0, 0]]"
+cloudflare-dns.com,H123-compact:
+cloudflare-dns.com,([1,"1, 1, 7, 1, 1, 2, 7, 6, 6, 6], ['h1', 'h3', 'h3', 'h3', 'h2', 'h2', 'h3', 'h2', 'h2', 'h2', 'h2'])"
+cloudflare-dns.com,H123:
+cloudflare-dns.com,[[1,"0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 7, 6, 6, 6], [0, 1, 1, 7, 0, 0, 2, 0, 0, 0, 0]]"
+cloudflare-dns.com,H123-compact:
+cloudflare-dns.com,([1,"1, 1, 7, 1, 1, 2, 7, 6, 6, 6], ['h1', 'h3', 'h3', 'h3', 'h2', 'h2', 'h3', 'h2', 'h2', 'h2', 'h2'])"
+cloudflare-dns.com,H123:
+cloudflare-dns.com,[[1,"0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 7, 6, 6, 6], [0, 1, 1, 7, 0, 0, 2, 0, 0, 0, 0]]"
+cloudflare-dns.com,H123-compact:
+cloudflare-dns.com,([1,"1, 1, 7, 1, 1, 2, 7, 6, 5, 6], ['h1', 'h3', 'h3', 'h3', 'h2', 'h2', 'h3', 'h2', 'h2', 'h2', 'h2'])"
+cloudflare-dns.com,H123:
+cloudflare-dns.com,[[1,"0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 7, 6, 5, 6], [0, 1, 1, 7, 0, 0, 2, 0, 0, 0, 0]]"
+cloudflare-dns.com,H123-compact:
+cloudflare-dns.com,([1,"1, 1, 7, 1, 1, 2, 7, 6, 6, 6], ['h1', 'h3', 'h3', 'h3', 'h2', 'h2', 'h3', 'h2', 'h2', 'h2', 'h2'])"
+cloudflare-dns.com,H123:
+cloudflare-dns.com,[[1,"0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 7, 6, 6, 6], [0, 1, 1, 7, 0, 0, 2, 0, 0, 0, 0]]"
+cloudflare-dns.com,H123-compact:
+cloudflare-dns.com,([1,"1, 1, 7, 1, 1, 2, 7, 6, 6, 6], ['h1', 'h3', 'h3', 'h3', 'h2', 'h2', 'h3', 'h2', 'h2', 'h2', 'h2'])"
+cloudflare-dns.com,H123:
+cloudflare-dns.com,[[1,"0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 7, 6, 6, 6], [0, 1, 1, 7, 0, 0, 2, 0, 0, 0, 0]]"
+cloudflare-dns.com,H123-compact:
+cloudflare-dns.com,([1,"1, 1, 7, 1, 1, 2, 7, 6, 5, 6], ['h1', 'h3', 'h3', 'h3', 'h2', 'h2', 'h3', 'h2', 'h2', 'h2', 'h2'])"
+cloudflare-dns.com,H123:
+cloudflare-dns.com,[[1,"0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 7, 6, 5, 6], [0, 1, 1, 7, 0, 0, 2, 0, 0, 0, 0]]"
+cloudflare-dns.com,H123-compact:
+cloudflare-dns.com,([1,"1, 1, 7, 1, 1, 2, 7, 6, 5, 6], ['h1', 'h3', 'h3', 'h3', 'h2', 'h2', 'h3', 'h2', 'h2', 'h2', 'h2'])"
+cloudflare-dns.com,H123:
+cloudflare-dns.com,[[1,"0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 7, 6, 5, 6], [0, 1, 1, 7, 0, 0, 2, 0, 0, 0, 0]]"
+cloudflare-dns.com,H123-compact:
+cloudflare-dns.com,([1,"1, 1, 7, 1, 1, 2, 7, 6, 5, 6], ['h1', 'h3', 'h3', 'h3', 'h2', 'h2', 'h3', 'h2', 'h2', 'h2', 'h2'])"
+cloudflare-dns.com,H123:
+cloudflare-dns.com,[[1,"0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 7, 6, 5, 6], [0, 1, 1, 7, 0, 0, 2, 0, 0, 0, 0]]"

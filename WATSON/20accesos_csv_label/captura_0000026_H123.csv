@@ -1,0 +1,81 @@
+label,num_resources,protocols
+workers.dev,H123-compact:
+workers.dev,([1,"1, 1, 49, 1], ['h1', 'h3', 'h2', 'h2', 'h2'])"
+workers.dev,H123:
+workers.dev,[[1,"0, 0, 0, 0], [0, 0, 1, 49, 1], [0, 1, 0, 0, 0]]"
+workers.dev,H123-compact:
+workers.dev,([1,"1, 1, 50, 1, 6], ['h1', 'h3', 'h2', 'h2', 'h2', 'h2'])"
+workers.dev,H123:
+workers.dev,[[1,"0, 0, 0, 0, 0], [0, 0, 1, 50, 1, 6], [0, 1, 0, 0, 0, 0]]"
+workers.dev,H123-compact:
+workers.dev,([1,"1, 1, 46, 1, 6, 2], ['h1', 'h3', 'h2', 'h2', 'h2', 'h2', 'h2'])"
+workers.dev,H123:
+workers.dev,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 1, 46, 1, 6, 2], [0, 1, 0, 0, 0, 0, 0]]"
+workers.dev,H123-compact:
+workers.dev,([1,"1, 1, 51, 1, 7, 2], ['h1', 'h3', 'h2', 'h2', 'h2', 'h2', 'h2'])"
+workers.dev,H123:
+workers.dev,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 1, 51, 1, 7, 2], [0, 1, 0, 0, 0, 0, 0]]"
+workers.dev,H123-compact:
+workers.dev,([1,"1, 1, 43, 1, 7, 2], ['h1', 'h3', 'h2', 'h2', 'h2', 'h2', 'h2'])"
+workers.dev,H123:
+workers.dev,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 1, 43, 1, 7, 2], [0, 1, 0, 0, 0, 0, 0]]"
+workers.dev,H123-compact:
+workers.dev,([1,"1, 1, 48, 1, 6], ['h1', 'h2', 'h3', 'h2', 'h2', 'h2'])"
+workers.dev,H123:
+workers.dev,[[1,"0, 0, 0, 0, 0], [0, 1, 0, 48, 1, 6], [0, 0, 1, 0, 0, 0]]"
+workers.dev,H123-compact:
+workers.dev,([1,"1, 1, 1, 48, 1, 6, 2], ['h1', 'h1', 'h3', 'h2', 'h2', 'h2', 'h2', 'h2'])"
+workers.dev,H123:
+workers.dev,[[1,"1, 0, 0, 0, 0, 0, 0], [0, 0, 0, 1, 48, 1, 6, 2], [0, 0, 1, 0, 0, 0, 0, 0]]"
+workers.dev,H123-compact:
+workers.dev,([1,"1, 1, 55, 1, 5, 2], ['h1', 'h3', 'h2', 'h2', 'h2', 'h2', 'h2'])"
+workers.dev,H123:
+workers.dev,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 1, 55, 1, 5, 2], [0, 1, 0, 0, 0, 0, 0]]"
+workers.dev,H123-compact:
+workers.dev,([1,"1, 1, 48, 1, 6, 2], ['h1', 'h3', 'h2', 'h2', 'h2', 'h2', 'h2'])"
+workers.dev,H123:
+workers.dev,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 1, 48, 1, 6, 2], [0, 1, 0, 0, 0, 0, 0]]"
+workers.dev,H123-compact:
+workers.dev,([1,"1, 1, 50, 1, 5, 2], ['h1', 'h3', 'h2', 'h2', 'h2', 'h2', 'h2'])"
+workers.dev,H123:
+workers.dev,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 1, 50, 1, 5, 2], [0, 1, 0, 0, 0, 0, 0]]"
+workers.dev,H123-compact:
+workers.dev,([1,"1, 1, 45, 1, 6, 2], ['h1', 'h3', 'h2', 'h2', 'h2', 'h2', 'h2'])"
+workers.dev,H123:
+workers.dev,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 1, 45, 1, 6, 2], [0, 1, 0, 0, 0, 0, 0]]"
+workers.dev,H123-compact:
+workers.dev,([1,"1, 1, 49, 1, 6, 2], ['h1', 'h3', 'h2', 'h2', 'h2', 'h2', 'h2'])"
+workers.dev,H123:
+workers.dev,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 1, 49, 1, 6, 2], [0, 1, 0, 0, 0, 0, 0]]"
+workers.dev,H123-compact:
+workers.dev,([1,"1, 1, 44, 1, 6, 2], ['h1', 'h3', 'h2', 'h2', 'h2', 'h2', 'h2'])"
+workers.dev,H123:
+workers.dev,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 1, 44, 1, 6, 2], [0, 1, 0, 0, 0, 0, 0]]"
+workers.dev,H123-compact:
+workers.dev,([1,"1, 1, 46, 1, 6, 2], ['h1', 'h3', 'h2', 'h2', 'h2', 'h2', 'h2'])"
+workers.dev,H123:
+workers.dev,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 1, 46, 1, 6, 2], [0, 1, 0, 0, 0, 0, 0]]"
+workers.dev,H123-compact:
+workers.dev,([1,"1, 1, 52, 1, 6, 2], ['h1', 'h3', 'h2', 'h2', 'h2', 'h2', 'h2'])"
+workers.dev,H123:
+workers.dev,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 1, 52, 1, 6, 2], [0, 1, 0, 0, 0, 0, 0]]"
+workers.dev,H123-compact:
+workers.dev,([1,"1, 1, 51, 1, 6, 2], ['h1', 'h3', 'h2', 'h2', 'h2', 'h2', 'h2'])"
+workers.dev,H123:
+workers.dev,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 1, 51, 1, 6, 2], [0, 1, 0, 0, 0, 0, 0]]"
+workers.dev,H123-compact:
+workers.dev,([1,"1, 1, 47, 1, 6, 2], ['h1', 'h3', 'h2', 'h2', 'h2', 'h2', 'h2'])"
+workers.dev,H123:
+workers.dev,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 1, 47, 1, 6, 2], [0, 1, 0, 0, 0, 0, 0]]"
+workers.dev,H123-compact:
+workers.dev,([1,"1, 1, 52, 1, 6, 2], ['h1', 'h3', 'h2', 'h2', 'h2', 'h2', 'h2'])"
+workers.dev,H123:
+workers.dev,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 1, 52, 1, 6, 2], [0, 1, 0, 0, 0, 0, 0]]"
+workers.dev,H123-compact:
+workers.dev,([1,"1, 1, 52, 1, 6, 2], ['h1', 'h3', 'h2', 'h2', 'h2', 'h2', 'h2'])"
+workers.dev,H123:
+workers.dev,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 1, 52, 1, 6, 2], [0, 1, 0, 0, 0, 0, 0]]"
+workers.dev,H123-compact:
+workers.dev,([1,"1, 1, 47, 1, 6, 2], ['h1', 'h3', 'h2', 'h2', 'h2', 'h2', 'h2'])"
+workers.dev,H123:
+workers.dev,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 1, 47, 1, 6, 2], [0, 1, 0, 0, 0, 0, 0]]"

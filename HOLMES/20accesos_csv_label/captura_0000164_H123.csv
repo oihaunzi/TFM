@@ -1,0 +1,101 @@
+label,num_resources,protocols
+aliyuncs.com,('10.6.56.13',"35366, '106.15.148.44', 443, True) h1"
+aliyuncs.com,H123-compact:
+aliyuncs.com,([1,"1, 6, 2], ['h1', 'h3', 'h2', 'h2'])"
+aliyuncs.com,H123:
+aliyuncs.com,[[1,"0, 0, 0], [0, 0, 6, 2], [0, 1, 0, 0]]"
+aliyuncs.com,('10.6.56.13',"34932, '106.15.148.44', 443, True) h1"
+aliyuncs.com,H123-compact:
+aliyuncs.com,([1,"1, 6], ['h1', 'h3', 'h2'])"
+aliyuncs.com,H123:
+aliyuncs.com,[[1,"0, 0], [0, 0, 6], [0, 1, 0]]"
+aliyuncs.com,('10.6.56.13',"43206, '106.15.148.44', 443, True) h1"
+aliyuncs.com,H123-compact:
+aliyuncs.com,([1,"1, 6], ['h1', 'h3', 'h2'])"
+aliyuncs.com,H123:
+aliyuncs.com,[[1,"0, 0], [0, 0, 6], [0, 1, 0]]"
+aliyuncs.com,('10.6.56.13',"49664, '106.15.148.44', 443, True) h1"
+aliyuncs.com,H123-compact:
+aliyuncs.com,([1,"1, 6], ['h1', 'h3', 'h2'])"
+aliyuncs.com,H123:
+aliyuncs.com,[[1,"0, 0], [0, 0, 6], [0, 1, 0]]"
+aliyuncs.com,('10.6.56.13',"47414, '106.15.148.44', 443, True) h1"
+aliyuncs.com,H123-compact:
+aliyuncs.com,([1,"1, 6], ['h1', 'h3', 'h2'])"
+aliyuncs.com,H123:
+aliyuncs.com,[[1,"0, 0], [0, 0, 6], [0, 1, 0]]"
+aliyuncs.com,('10.6.56.13',"33586, '106.15.148.44', 443, True) h1"
+aliyuncs.com,H123-compact:
+aliyuncs.com,([1,"1, 1, 6, 2], ['h1', 'h1', 'h3', 'h2', 'h2'])"
+aliyuncs.com,H123:
+aliyuncs.com,[[1,"1, 0, 0, 0], [0, 0, 0, 6, 2], [0, 0, 1, 0, 0]]"
+aliyuncs.com,('10.6.56.13',"60694, '106.15.148.44', 443, True) h1"
+aliyuncs.com,H123-compact:
+aliyuncs.com,([1,"1, 6], ['h1', 'h3', 'h2'])"
+aliyuncs.com,H123:
+aliyuncs.com,[[1,"0, 0], [0, 0, 6], [0, 1, 0]]"
+aliyuncs.com,('10.6.56.13',"42060, '106.15.148.44', 443, True) h1"
+aliyuncs.com,H123-compact:
+aliyuncs.com,([1,"1, 6], ['h1', 'h3', 'h2'])"
+aliyuncs.com,H123:
+aliyuncs.com,[[1,"0, 0], [0, 0, 6], [0, 1, 0]]"
+aliyuncs.com,('10.6.56.13',"56202, '106.15.148.44', 443, True) h1"
+aliyuncs.com,H123-compact:
+aliyuncs.com,([1,"1, 6, 2], ['h1', 'h3', 'h2', 'h2'])"
+aliyuncs.com,H123:
+aliyuncs.com,[[1,"0, 0, 0], [0, 0, 6, 2], [0, 1, 0, 0]]"
+aliyuncs.com,('10.6.56.13',"47948, '106.15.148.44', 443, True) h1"
+aliyuncs.com,H123-compact:
+aliyuncs.com,([1,"1, 6], ['h1', 'h3', 'h2'])"
+aliyuncs.com,H123:
+aliyuncs.com,[[1,"0, 0], [0, 0, 6], [0, 1, 0]]"
+aliyuncs.com,('10.6.56.13',"43136, '106.15.148.44', 443, True) h1"
+aliyuncs.com,H123-compact:
+aliyuncs.com,([1,"1, 6], ['h1', 'h3', 'h2'])"
+aliyuncs.com,H123:
+aliyuncs.com,[[1,"0, 0], [0, 0, 6], [0, 1, 0]]"
+aliyuncs.com,('10.6.56.13',"47964, '106.15.148.44', 443, True) h1"
+aliyuncs.com,H123-compact:
+aliyuncs.com,([1,"1, 6], ['h1', 'h3', 'h2'])"
+aliyuncs.com,H123:
+aliyuncs.com,[[1,"0, 0], [0, 0, 6], [0, 1, 0]]"
+aliyuncs.com,('10.6.56.13',"55274, '106.15.148.44', 443, True) h1"
+aliyuncs.com,H123-compact:
+aliyuncs.com,([1,"1, 6, 2], ['h1', 'h3', 'h2', 'h2'])"
+aliyuncs.com,H123:
+aliyuncs.com,[[1,"0, 0, 0], [0, 0, 6, 2], [0, 1, 0, 0]]"
+aliyuncs.com,('10.6.56.13',"48564, '106.15.148.44', 443, True) h1"
+aliyuncs.com,H123-compact:
+aliyuncs.com,([1,"1, 6], ['h1', 'h3', 'h2'])"
+aliyuncs.com,H123:
+aliyuncs.com,[[1,"0, 0], [0, 0, 6], [0, 1, 0]]"
+aliyuncs.com,('10.6.56.13',"51520, '106.15.148.44', 443, True) h1"
+aliyuncs.com,H123-compact:
+aliyuncs.com,([1,"1, 6], ['h1', 'h3', 'h2'])"
+aliyuncs.com,H123:
+aliyuncs.com,[[1,"0, 0], [0, 0, 6], [0, 1, 0]]"
+aliyuncs.com,('10.6.56.13',"48030, '106.15.148.44', 443, True) h1"
+aliyuncs.com,H123-compact:
+aliyuncs.com,([1,"1, 6], ['h1', 'h3', 'h2'])"
+aliyuncs.com,H123:
+aliyuncs.com,[[1,"0, 0], [0, 0, 6], [0, 1, 0]]"
+aliyuncs.com,('10.6.56.13',"46734, '106.15.148.44', 443, True) h1"
+aliyuncs.com,H123-compact:
+aliyuncs.com,([1,"1, 6], ['h1', 'h3', 'h2'])"
+aliyuncs.com,H123:
+aliyuncs.com,[[1,"0, 0], [0, 0, 6], [0, 1, 0]]"
+aliyuncs.com,('10.6.56.13',"50222, '106.15.148.44', 443, True) h1"
+aliyuncs.com,H123-compact:
+aliyuncs.com,([1,"1, 6], ['h1', 'h3', 'h2'])"
+aliyuncs.com,H123:
+aliyuncs.com,[[1,"0, 0], [0, 0, 6], [0, 1, 0]]"
+aliyuncs.com,('10.6.56.13',"36998, '106.15.148.44', 443, True) h1"
+aliyuncs.com,H123-compact:
+aliyuncs.com,([1,"1, 6], ['h1', 'h3', 'h2'])"
+aliyuncs.com,H123:
+aliyuncs.com,[[1,"0, 0], [0, 0, 6], [0, 1, 0]]"
+aliyuncs.com,('10.6.56.13',"59416, '106.15.148.44', 443, True) h1"
+aliyuncs.com,H123-compact:
+aliyuncs.com,([1,"1, 6], ['h1', 'h3', 'h2'])"
+aliyuncs.com,H123:
+aliyuncs.com,[[1,"0, 0], [0, 0, 6], [0, 1, 0]]"

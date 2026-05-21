@@ -1,0 +1,81 @@
+label,num_resources,protocols
+cloudflare.net,H123-compact:
+cloudflare.net,([1,"1, 9, 1, 1, 44, 5], ['h1', 'h3', 'h2', 'h2', 'h3', 'h3', 'h2'])"
+cloudflare.net,H123:
+cloudflare.net,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 9, 1, 0, 0, 5], [0, 1, 0, 0, 1, 44, 0]]"
+cloudflare.net,H123-compact:
+cloudflare.net,([1,"1, 9, 1, 1, 44, 6], ['h1', 'h3', 'h2', 'h2', 'h3', 'h3', 'h2'])"
+cloudflare.net,H123:
+cloudflare.net,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 9, 1, 0, 0, 6], [0, 1, 0, 0, 1, 44, 0]]"
+cloudflare.net,H123-compact:
+cloudflare.net,([1,"1, 9, 1, 1, 45, 6], ['h1', 'h3', 'h2', 'h2', 'h3', 'h3', 'h2'])"
+cloudflare.net,H123:
+cloudflare.net,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 9, 1, 0, 0, 6], [0, 1, 0, 0, 1, 45, 0]]"
+cloudflare.net,H123-compact:
+cloudflare.net,([1,"1, 9, 1, 1, 44, 6], ['h1', 'h3', 'h2', 'h2', 'h3', 'h3', 'h2'])"
+cloudflare.net,H123:
+cloudflare.net,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 9, 1, 0, 0, 6], [0, 1, 0, 0, 1, 44, 0]]"
+cloudflare.net,H123-compact:
+cloudflare.net,([1,"1, 9, 1, 1, 44, 5], ['h1', 'h3', 'h2', 'h2', 'h3', 'h3', 'h2'])"
+cloudflare.net,H123:
+cloudflare.net,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 9, 1, 0, 0, 5], [0, 1, 0, 0, 1, 44, 0]]"
+cloudflare.net,H123-compact:
+cloudflare.net,([1,"1, 9, 1, 1, 44, 6], ['h1', 'h3', 'h2', 'h2', 'h3', 'h3', 'h2'])"
+cloudflare.net,H123:
+cloudflare.net,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 9, 1, 0, 0, 6], [0, 1, 0, 0, 1, 44, 0]]"
+cloudflare.net,H123-compact:
+cloudflare.net,([1,"9, 1, 1, 1, 44, 6], ['h1', 'h2', 'h3', 'h2', 'h3', 'h3', 'h2'])"
+cloudflare.net,H123:
+cloudflare.net,[[1,"0, 0, 0, 0, 0, 0], [0, 9, 0, 1, 0, 0, 6], [0, 0, 1, 0, 1, 44, 0]]"
+cloudflare.net,H123-compact:
+cloudflare.net,([1,"1, 9, 1, 1, 45, 6], ['h1', 'h3', 'h2', 'h2', 'h3', 'h3', 'h2'])"
+cloudflare.net,H123:
+cloudflare.net,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 9, 1, 0, 0, 6], [0, 1, 0, 0, 1, 45, 0]]"
+cloudflare.net,H123-compact:
+cloudflare.net,([1,"1, 9, 1, 1, 44, 6], ['h1', 'h3', 'h2', 'h2', 'h3', 'h3', 'h2'])"
+cloudflare.net,H123:
+cloudflare.net,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 9, 1, 0, 0, 6], [0, 1, 0, 0, 1, 44, 0]]"
+cloudflare.net,H123-compact:
+cloudflare.net,([1,"1, 9, 1, 1, 44, 6], ['h1', 'h3', 'h2', 'h2', 'h3', 'h3', 'h2'])"
+cloudflare.net,H123:
+cloudflare.net,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 9, 1, 0, 0, 6], [0, 1, 0, 0, 1, 44, 0]]"
+cloudflare.net,H123-compact:
+cloudflare.net,([1,"1, 9, 1, 1, 44, 7], ['h1', 'h3', 'h2', 'h2', 'h3', 'h3', 'h2'])"
+cloudflare.net,H123:
+cloudflare.net,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 9, 1, 0, 0, 7], [0, 1, 0, 0, 1, 44, 0]]"
+cloudflare.net,H123-compact:
+cloudflare.net,([1,"1, 9, 1, 1, 44, 6], ['h1', 'h3', 'h2', 'h2', 'h3', 'h3', 'h2'])"
+cloudflare.net,H123:
+cloudflare.net,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 9, 1, 0, 0, 6], [0, 1, 0, 0, 1, 44, 0]]"
+cloudflare.net,H123-compact:
+cloudflare.net,([1,"1, 1, 9, 1, 1, 45, 6], ['h1', 'h1', 'h3', 'h2', 'h2', 'h3', 'h3', 'h2'])"
+cloudflare.net,H123:
+cloudflare.net,[[1,"1, 0, 0, 0, 0, 0, 0], [0, 0, 0, 9, 1, 0, 0, 6], [0, 0, 1, 0, 0, 1, 45, 0]]"
+cloudflare.net,H123-compact:
+cloudflare.net,([1,"1, 9, 1, 1, 44, 6], ['h1', 'h3', 'h2', 'h2', 'h3', 'h3', 'h2'])"
+cloudflare.net,H123:
+cloudflare.net,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 9, 1, 0, 0, 6], [0, 1, 0, 0, 1, 44, 0]]"
+cloudflare.net,H123-compact:
+cloudflare.net,([1,"1, 9, 1, 1, 44, 6], ['h1', 'h3', 'h2', 'h2', 'h3', 'h3', 'h2'])"
+cloudflare.net,H123:
+cloudflare.net,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 9, 1, 0, 0, 6], [0, 1, 0, 0, 1, 44, 0]]"
+cloudflare.net,H123-compact:
+cloudflare.net,([1,"1, 9, 1, 1, 45, 6], ['h1', 'h3', 'h2', 'h2', 'h3', 'h3', 'h2'])"
+cloudflare.net,H123:
+cloudflare.net,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 9, 1, 0, 0, 6], [0, 1, 0, 0, 1, 45, 0]]"
+cloudflare.net,H123-compact:
+cloudflare.net,([1,"1, 9, 1, 1, 45, 5], ['h1', 'h3', 'h2', 'h2', 'h3', 'h3', 'h2'])"
+cloudflare.net,H123:
+cloudflare.net,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 9, 1, 0, 0, 5], [0, 1, 0, 0, 1, 45, 0]]"
+cloudflare.net,H123-compact:
+cloudflare.net,([1,"1, 9, 1, 1, 44, 6], ['h1', 'h3', 'h2', 'h2', 'h2', 'h3', 'h2'])"
+cloudflare.net,H123:
+cloudflare.net,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 9, 1, 1, 0, 6], [0, 1, 0, 0, 0, 44, 0]]"
+cloudflare.net,H123-compact:
+cloudflare.net,([1,"1, 9, 1, 1, 44, 6], ['h1', 'h3', 'h2', 'h2', 'h3', 'h3', 'h2'])"
+cloudflare.net,H123:
+cloudflare.net,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 9, 1, 0, 0, 6], [0, 1, 0, 0, 1, 44, 0]]"
+cloudflare.net,H123-compact:
+cloudflare.net,([1,"1, 9, 1, 1, 44, 6], ['h1', 'h3', 'h2', 'h2', 'h3', 'h3', 'h2'])"
+cloudflare.net,H123:
+cloudflare.net,[[1,"0, 0, 0, 0, 0, 0], [0, 0, 9, 1, 0, 0, 6], [0, 1, 0, 0, 1, 44, 0]]"

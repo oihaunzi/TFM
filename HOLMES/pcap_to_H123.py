@@ -96,7 +96,7 @@ def generate_H123(file):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--F', type=str, default='./HOLMES_unit_test/test4_doi_org.pcap', help='raw pcap file')
+    parser.add_argument('--F', type=str, default='/RAID5-22TB/ohiane.unzilla/x20v9/captura/captura_0000001_01_2.pcap', help='raw pcap file')
     args = parser.parse_args()
 
     pcap_file = args.F
