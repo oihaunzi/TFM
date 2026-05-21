@@ -1,0 +1,43 @@
+RESUMEN DE SOLAPAMIENTOS DE FINGERPRINTS
+=======================================
+
+Total labels/webs: 139
+Labels con al menos un solapamiento: 125
+Labels sin solapamientos detectados: 14
+
+Total pares posibles: 9591
+Pares solapados: 486
+Pares no solapados: 9105
+
+TOP 30 pares solapados más cercanos:
+-----------------------------------
+googleadservices.com  <->  googleusercontent.com (distancia centroides=0.0000)
+medium.com  <->  mozilla.org (distancia centroides=0.0024)
+forms.gle  <->  okcdn.ru (distancia centroides=0.0034)
+googleapis.com  <->  googletagmanager.com (distancia centroides=0.0042)
+appsflyersdk.com  <->  forms.gle (distancia centroides=0.0044)
+digicert.com  <->  googledomains.com (distancia centroides=0.0054)
+googlesyndication.com  <->  googlevideo.com (distancia centroides=0.0059)
+github.io  <->  lencr.org (distancia centroides=0.0073)
+forms.gle  <->  tiktokv.com (distancia centroides=0.0082)
+okcdn.ru  <->  tiktokv.com (distancia centroides=0.0101)
+appsflyersdk.com  <->  tiktokv.com (distancia centroides=0.0117)
+forbes.com  <->  nist.gov (distancia centroides=0.0120)
+googletagmanager.com  <->  googleusercontent.com (distancia centroides=0.0128)
+googleadservices.com  <->  googletagmanager.com (distancia centroides=0.0128)
+casalemedia.com  <->  paypal.com (distancia centroides=0.0131)
+digicert.com  <->  whatsapp.com (distancia centroides=0.0133)
+lencr.org  <->  sentry.io (distancia centroides=0.0142)
+adobe.com  <->  reddit.com (distancia centroides=0.0147)
+googleadservices.com  <->  googleapis.com (distancia centroides=0.0165)
+googleapis.com  <->  googleusercontent.com (distancia centroides=0.0165)
+archive.org  <->  whatsapp.net (distancia centroides=0.0167)
+goo.gl  <->  wikipedia.org (distancia centroides=0.0168)
+forms.gle  <->  googletagmanager.com (distancia centroides=0.0203)
+googletagmanager.com  <->  tiktokv.com (distancia centroides=0.0215)
+forms.gle  <->  googleapis.com (distancia centroides=0.0224)
+googleusercontent.com  <->  tiktokv.com (distancia centroides=0.0225)
+googleadservices.com  <->  tiktokv.com (distancia centroides=0.0225)
+meraki.com  <->  x.com (distancia centroides=0.0226)
+googleapis.com  <->  tiktokv.com (distancia centroides=0.0247)
+forms.gle  <->  googleusercontent.com (distancia centroides=0.0257)
