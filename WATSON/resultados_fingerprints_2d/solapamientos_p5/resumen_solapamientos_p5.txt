@@ -1,0 +1,62 @@
+RESUMEN DE SOLAPAMIENTOS CON UMBRAL P5
+=====================================
+
+Umbral utilizado: 0.032791
+Labels/webs totales: 139
+Labels con solapamiento: 122
+Labels sin solapamiento: 17
+Pares solapados: 480
+Pares posibles: 9591
+
+TOP pares solapados:
+--------------------
+app-analytics-services.com <-> googleusercontent.com distancia=0.000000
+app-analytics-services.com <-> googleadservices.com distancia=0.000000
+app-analytics-services.com <-> googletagmanager.com distancia=0.000000
+app-analytics-services.com <-> app-measurement.com distancia=0.000000
+app-analytics-services.com <-> googleapis.com distancia=0.000000
+googleadservices.com <-> googletagmanager.com distancia=0.000000
+appsflyersdk.com <-> xiaomi.com distancia=0.000000
+goo.gl <-> t.co distancia=0.000000
+appsflyersdk.com <-> tiktokv.com distancia=0.000000
+googlesyndication.com <-> googlevideo.com distancia=0.000000
+appsflyersdk.com <-> forms.gle distancia=0.000000
+googletagmanager.com <-> googleusercontent.com distancia=0.000000
+app-measurement.com <-> googleapis.com distancia=0.000000
+app-measurement.com <-> googleadservices.com distancia=0.000000
+app-measurement.com <-> googleusercontent.com distancia=0.000000
+app-measurement.com <-> googletagmanager.com distancia=0.000000
+googleadservices.com <-> googleapis.com distancia=0.000000
+appsflyersdk.com <-> unity3d.com distancia=0.000000
+adnxs.com <-> tiktokv.com distancia=0.000000
+adnxs.com <-> unity3d.com distancia=0.000000
+adnxs.com <-> xiaomi.com distancia=0.000000
+tiktokv.com <-> unity3d.com distancia=0.000000
+tiktokv.com <-> xiaomi.com distancia=0.000000
+unity3d.com <-> xiaomi.com distancia=0.000000
+adnxs.com <-> appsflyersdk.com distancia=0.000000
+adnxs.com <-> forms.gle distancia=0.000000
+forms.gle <-> unity3d.com distancia=0.000000
+forms.gle <-> tiktokv.com distancia=0.000000
+forms.gle <-> xiaomi.com distancia=0.000000
+googleapis.com <-> googleusercontent.com distancia=0.000000
+googleapis.com <-> googletagmanager.com distancia=0.000000
+googleadservices.com <-> googleusercontent.com distancia=0.000000
+baidu.com <-> twitter.com distancia=0.000079
+europa.eu <-> nist.gov distancia=0.000512
+forbes.com <-> nih.gov distancia=0.000912
+digicert.com <-> myfritz.net distancia=0.001020
+medium.com <-> meraki.com distancia=0.001104
+appsflyersdk.com <-> okcdn.ru distancia=0.001116
+okcdn.ru <-> xiaomi.com distancia=0.001116
+okcdn.ru <-> tiktokv.com distancia=0.001116
+adnxs.com <-> okcdn.ru distancia=0.001116
+cnn.com <-> okcdn.ru distancia=0.001116
+forms.gle <-> okcdn.ru distancia=0.001116
+okcdn.ru <-> unity3d.com distancia=0.001116
+europa.eu <-> nih.gov distancia=0.001259
+forbes.com <-> roblox.com distancia=0.001384
+appsflyersdk.com <-> cnn.com distancia=0.001468
+cnn.com <-> forms.gle distancia=0.001468
+meraki.com <-> mozilla.org distancia=0.001570
+archive.org <-> sentry.io distancia=0.001608

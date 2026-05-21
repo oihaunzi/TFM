@@ -1,0 +1,42 @@
+SOLAPAMIENTO MÁS ESTRICTO POSIBLE
+=================================
+
+Umbral utilizado: 7.928977211438316e-05
+Labels/webs totales: 139
+Pares detectados con ese umbral: 33
+
+Pares más parecidos:
+--------------------
+adnxs.com <-> appsflyersdk.com distancia=0.0000000000
+adnxs.com <-> forms.gle distancia=0.0000000000
+appsflyersdk.com <-> unity3d.com distancia=0.0000000000
+appsflyersdk.com <-> tiktokv.com distancia=0.0000000000
+appsflyersdk.com <-> xiaomi.com distancia=0.0000000000
+app-analytics-services.com <-> googleapis.com distancia=0.0000000000
+app-analytics-services.com <-> googletagmanager.com distancia=0.0000000000
+app-analytics-services.com <-> app-measurement.com distancia=0.0000000000
+app-analytics-services.com <-> googleadservices.com distancia=0.0000000000
+appsflyersdk.com <-> forms.gle distancia=0.0000000000
+goo.gl <-> t.co distancia=0.0000000000
+app-analytics-services.com <-> googleusercontent.com distancia=0.0000000000
+app-measurement.com <-> googleadservices.com distancia=0.0000000000
+googleapis.com <-> googleusercontent.com distancia=0.0000000000
+googleapis.com <-> googletagmanager.com distancia=0.0000000000
+googletagmanager.com <-> googleusercontent.com distancia=0.0000000000
+forms.gle <-> tiktokv.com distancia=0.0000000000
+app-measurement.com <-> googleapis.com distancia=0.0000000000
+app-measurement.com <-> googletagmanager.com distancia=0.0000000000
+app-measurement.com <-> googleusercontent.com distancia=0.0000000000
+googlesyndication.com <-> googlevideo.com distancia=0.0000000000
+adnxs.com <-> unity3d.com distancia=0.0000000000
+adnxs.com <-> tiktokv.com distancia=0.0000000000
+adnxs.com <-> xiaomi.com distancia=0.0000000000
+unity3d.com <-> xiaomi.com distancia=0.0000000000
+googleadservices.com <-> googleusercontent.com distancia=0.0000000000
+googleadservices.com <-> googletagmanager.com distancia=0.0000000000
+googleadservices.com <-> googleapis.com distancia=0.0000000000
+tiktokv.com <-> unity3d.com distancia=0.0000000000
+tiktokv.com <-> xiaomi.com distancia=0.0000000000
+forms.gle <-> xiaomi.com distancia=0.0000000000
+forms.gle <-> unity3d.com distancia=0.0000000000
+baidu.com <-> twitter.com distancia=0.0000792898
