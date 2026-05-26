@@ -1,3 +1,7 @@
 venv/
 __pycache__/
 *.pyc
+WATSON/venv/
+venv/
+__pycache__/
+*.pyc
