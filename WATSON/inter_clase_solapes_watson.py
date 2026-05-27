@@ -17,13 +17,9 @@ INTRA_CSV = os.path.join(
     "tabla_resumen_intra_clase_watson.csv"
 )
 
-OUT_DIR = os.path.join(BASE_DIR, "resultados_inter_clase")
+OUT_DIR = os.path.join(BASE_DIR, "resultados_inter_clase_por_origen")
 os.makedirs(OUT_DIR, exist_ok=True)
 
-
-# ============================================================
-# Distancias tipo WATSON
-# ============================================================
 
 def wasserstein_1d(a, b):
     a = np.array(a, dtype=float)
@@ -91,10 +87,6 @@ def watson_distance(fp1, fp2, max_val_global):
     return peso_wasserstein * d_w + peso_lcss * d_lcss
 
 
-# ============================================================
-# Lectura H123-compact
-# ============================================================
-
 def parse_h123_compact(linea):
     try:
         url, contenido = linea.split(",", 1)
@@ -147,10 +139,6 @@ def cargar_fingerprints():
     return pd.DataFrame(datos)
 
 
-# ============================================================
-# Main
-# ============================================================
-
 def main():
     print("Cargando fingerprints...")
     df_fp = cargar_fingerprints()
@@ -161,11 +149,6 @@ def main():
 
     print(f"Fingerprints cargados: {len(df_fp)}")
     print(f"URLs distintas: {df_fp['url'].nunique()}")
-
-    if not os.path.exists(INTRA_CSV):
-        print(f"No existe la tabla intra-clase:")
-        print(INTRA_CSV)
-        return
 
     print("Cargando tabla intra-clase...")
     df_intra = pd.read_csv(INTRA_CSV)
@@ -180,6 +163,7 @@ def main():
         }
 
     max_val_global = 0
+
     for valores in df_fp["valores"]:
         if len(valores) > 0:
             max_val_global = max(max_val_global, max(valores))
@@ -188,20 +172,24 @@ def main():
 
     urls = sorted(df_fp["url"].unique())
 
-    pares = []
-    resumen_tmp = {
+    pares_dirigidos = []
+
+    resumen = {
         url: {
             "url": url,
             "max_intra": intra_info[url]["max_intra"],
+            "media_intra": intra_info[url]["media_intra"],
+            "desviacion_intra": intra_info[url]["desviacion_intra"],
             "min_inter": None,
             "url_mas_cerca": None,
-            "riesgo_solape": "No"
+            "riesgo_solape": "No",
+            "num_urls_solapadas": 0
         }
         for url in urls
         if url in intra_info
     }
 
-    print("Calculando distancias inter-clase...")
+    print("Calculando distancias inter-clase por URL origen...")
 
     for url_a, url_b in combinations(urls, 2):
         if url_a not in intra_info or url_b not in intra_info:
@@ -219,55 +207,57 @@ def main():
 
         min_inter = float(np.min(distancias))
 
+        # Evaluación desde A hacia B
         max_intra_a = intra_info[url_a]["max_intra"]
-        max_intra_b = intra_info[url_b]["max_intra"]
+        solape_a = "Sí" if min_inter <= max_intra_a else "No"
 
-        umbral_solape = max(max_intra_a, max_intra_b)
-
-        solape = "Sí" if min_inter <= umbral_solape else "No"
-
-        pares.append({
-            "url_a": url_a,
-            "url_b": url_b,
+        pares_dirigidos.append({
+            "url_origen": url_a,
+            "url_comparada": url_b,
+            "max_intra_origen": max_intra_a,
             "min_inter": min_inter,
-            "max_intra_a": max_intra_a,
-            "max_intra_b": max_intra_b,
-            "umbral_solape": umbral_solape,
-            "solape": solape
+            "solape": solape_a
         })
 
-        # Actualizar resumen para url_a
-        if resumen_tmp[url_a]["min_inter"] is None or min_inter < resumen_tmp[url_a]["min_inter"]:
-            resumen_tmp[url_a]["min_inter"] = min_inter
-            resumen_tmp[url_a]["url_mas_cerca"] = url_b
+        if resumen[url_a]["min_inter"] is None or min_inter < resumen[url_a]["min_inter"]:
+            resumen[url_a]["min_inter"] = min_inter
+            resumen[url_a]["url_mas_cerca"] = url_b
 
-        # Actualizar resumen para url_b
-        if resumen_tmp[url_b]["min_inter"] is None or min_inter < resumen_tmp[url_b]["min_inter"]:
-            resumen_tmp[url_b]["min_inter"] = min_inter
-            resumen_tmp[url_b]["url_mas_cerca"] = url_a
+        if solape_a == "Sí":
+            resumen[url_a]["riesgo_solape"] = "Sí"
+            resumen[url_a]["num_urls_solapadas"] += 1
 
-    df_pares = pd.DataFrame(pares)
+        # Evaluación desde B hacia A
+        max_intra_b = intra_info[url_b]["max_intra"]
+        solape_b = "Sí" if min_inter <= max_intra_b else "No"
 
-    # Completar riesgo por URL
-    for url in resumen_tmp:
-        max_intra = resumen_tmp[url]["max_intra"]
-        min_inter = resumen_tmp[url]["min_inter"]
+        pares_dirigidos.append({
+            "url_origen": url_b,
+            "url_comparada": url_a,
+            "max_intra_origen": max_intra_b,
+            "min_inter": min_inter,
+            "solape": solape_b
+        })
 
-        if min_inter is not None and min_inter <= max_intra:
-            resumen_tmp[url]["riesgo_solape"] = "Sí"
-        else:
-            resumen_tmp[url]["riesgo_solape"] = "No"
+        if resumen[url_b]["min_inter"] is None or min_inter < resumen[url_b]["min_inter"]:
+            resumen[url_b]["min_inter"] = min_inter
+            resumen[url_b]["url_mas_cerca"] = url_a
 
-    df_resumen = pd.DataFrame(list(resumen_tmp.values()))
+        if solape_b == "Sí":
+            resumen[url_b]["riesgo_solape"] = "Sí"
+            resumen[url_b]["num_urls_solapadas"] += 1
+
+    df_pares = pd.DataFrame(pares_dirigidos)
+    df_resumen = pd.DataFrame(list(resumen.values()))
 
     df_resumen = df_resumen.sort_values(
-        by=["riesgo_solape", "min_inter"],
-        ascending=[False, True]
+        by=["riesgo_solape", "num_urls_solapadas", "min_inter"],
+        ascending=[False, False, True]
     )
 
     df_pares = df_pares.sort_values(
-        by=["solape", "min_inter"],
-        ascending=[False, True]
+        by=["solape", "url_origen", "min_inter"],
+        ascending=[False, True, True]
     )
 
     salida_resumen = os.path.join(
@@ -277,30 +267,30 @@ def main():
 
     salida_pares = os.path.join(
         OUT_DIR,
-        "tabla_2_pares_solape_inter_clase.csv"
+        "tabla_2_solapes_por_origen.csv"
     )
 
-    salida_pares_solo_solape = os.path.join(
+    salida_solo_solapes = os.path.join(
         OUT_DIR,
-        "tabla_2_pares_solo_solapes.csv"
+        "tabla_2_solo_solapes_por_origen.csv"
     )
 
     df_resumen.to_csv(salida_resumen, index=False)
     df_pares.to_csv(salida_pares, index=False)
     df_pares[df_pares["solape"] == "Sí"].to_csv(
-        salida_pares_solo_solape,
+        salida_solo_solapes,
         index=False
     )
 
     print("\nResultados generados:")
     print(salida_resumen)
     print(salida_pares)
-    print(salida_pares_solo_solape)
+    print(salida_solo_solapes)
 
     print("\nResumen:")
     print(f"URLs analizadas: {len(df_resumen)}")
-    print(f"Pares analizados: {len(df_pares)}")
-    print(f"Pares con solape: {(df_pares['solape'] == 'Sí').sum()}")
+    print(f"Comparaciones dirigidas: {len(df_pares)}")
+    print(f"Solapes detectados: {(df_pares['solape'] == 'Sí').sum()}")
 
 
 if __name__ == "__main__":
