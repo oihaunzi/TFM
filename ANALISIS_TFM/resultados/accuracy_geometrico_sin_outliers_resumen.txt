@@ -1,0 +1,158 @@
+CLASIFICADOR GEOMÉTRICO 1-NN SIN OUTLIERS
+=========================================
+
+Archivo de entrada: /RAID5-22TB/ohiane.unzilla/HOLMESWATSON/H123-Website-Fingerprinting/ANALISIS_TFM/resultados/puntos_3d_H123_sin_outliers.csv
+Muestras totales: 2282
+Muestras train: 1771
+Muestras test: 511
+Train ratio: 0.8
+
+Accuracy geométrico sin outliers: 0.7730
+Accuracy geométrico sin outliers (%): 77.30%
+
+Classification report:
+                            precision    recall  f1-score   support
+
+                 adnxs.com       0.14      1.00      0.25         4
+                 adobe.com       0.00      0.00      0.00         4
+                  adobe.io       1.00      1.00      1.00         4
+                adriver.ru       1.00      1.00      1.00         2
+              aliyuncs.com       1.00      1.00      1.00         4
+       amazon-adsystem.com       0.50      1.00      0.67         4
+                amazon.com       1.00      1.00      1.00         3
+           amazonvideo.com       1.00      1.00      1.00         4
+               android.com       1.00      1.00      1.00         4
+                apache.org       1.00      1.00      1.00         4
+app-analytics-services.com       0.17      1.00      0.29         4
+       app-measurement.com       0.00      0.00      0.00         4
+                 apple.com       1.00      0.75      0.86         4
+              applovin.com       1.00      1.00      1.00         4
+          appsflyersdk.com       0.00      0.00      0.00         4
+               archive.org       1.00      1.00      1.00         4
+                 azure.com       1.00      1.00      1.00         4
+                 baidu.com       0.50      1.00      0.67         4
+                  bing.com       1.00      1.00      1.00         4
+                    bit.ly       1.00      1.00      1.00         3
+              blogspot.com       0.50      1.00      0.67         4
+           casalemedia.com       1.00      1.00      1.00         4
+        cloudflare-dns.com       1.00      1.00      1.00         4
+            cloudflare.com       1.00      1.00      1.00         4
+            cloudflare.net       1.00      1.00      1.00         3
+                   cnn.com       1.00      1.00      1.00         4
+                criteo.com       1.00      1.00      1.00         4
+              digicert.com       1.00      1.00      1.00         3
+                discord.gg       1.00      1.00      1.00         3
+                dns.google       1.00      1.00      1.00         4
+           doubleclick.net       1.00      1.00      1.00         3
+               dropbox.com       1.00      1.00      1.00         4
+                   dzen.ru       0.33      1.00      0.50         3
+             epicgames.com       1.00      1.00      1.00         2
+                 europa.eu       1.00      1.00      1.00         4
+              facebook.com       0.50      1.00      0.67         3
+                fastly.net       1.00      1.00      1.00         3
+                 fbcdn.net       0.00      0.00      0.00         3
+                flickr.com       1.00      1.00      1.00         4
+                forbes.com       0.80      1.00      0.89         4
+                 forms.gle       0.00      0.00      0.00         4
+                 gandi.net       1.00      1.00      1.00         4
+                github.com       0.50      0.75      0.60         4
+                 github.io       0.33      0.75      0.46         4
+                 gmail.com       1.00      1.00      1.00         3
+                    goo.gl       0.33      1.00      0.50         4
+      google-analytics.com       1.00      1.00      1.00         2
+                google.com       0.50      1.00      0.67         3
+      googleadservices.com       0.00      0.00      0.00         4
+            googleapis.com       0.00      0.00      0.00         4
+         googledomains.com       1.00      1.00      1.00         4
+     googlesyndication.com       0.33      0.33      0.33         3
+      googletagmanager.com       0.00      0.00      0.00         4
+     googleusercontent.com       0.00      0.00      0.00         4
+           googlevideo.com       0.00      0.00      0.00         3
+              gravatar.com       1.00      1.00      1.00         3
+               gstatic.com       1.00      1.00      1.00         4
+                health.mil       1.00      1.00      1.00         4
+                icloud.com       1.00      1.00      1.00         4
+             instagram.com       1.00      1.00      1.00         2
+                intuit.com       1.00      1.00      1.00         3
+                    ivi.ru       1.00      1.00      1.00         4
+             kaspersky.com       1.00      0.67      0.80         3
+                 lencr.org       1.00      1.00      1.00         4
+              linkedin.com       1.00      1.00      1.00         3
+                 linkos.bg       1.00      1.00      1.00         4
+                  live.com       0.50      0.33      0.40         3
+                   mail.ru       1.00      1.00      1.00         4
+                medium.com       1.00      1.00      1.00         3
+                meraki.com       0.75      0.75      0.75         4
+             microsoft.com       1.00      1.00      1.00         4
+                  miui.com       0.50      1.00      0.67         3
+               mozilla.org       1.00      1.00      1.00         4
+                   msn.com       1.00      1.00      1.00         3
+                    mts.ru       1.00      1.00      1.00         3
+               myfritz.net       1.00      0.67      0.80         3
+               netflix.com       1.00      1.00      1.00         2
+                 nginx.com       1.00      1.00      1.00         4
+                 nginx.org       1.00      1.00      1.00         4
+                    nic.ru       1.00      1.00      1.00         4
+                   nih.gov       1.00      1.00      1.00         3
+                  nist.gov       1.00      1.00      1.00         4
+                   ntp.org       1.00      1.00      1.00         4
+               nytimes.com       1.00      1.00      1.00         3
+                office.com       1.00      1.00      1.00         4
+             office365.com       1.00      1.00      1.00         4
+                  okcdn.ru       0.00      0.00      0.00         4
+                   one.one       1.00      1.00      1.00         4
+                 opera.com       1.00      1.00      1.00         4
+               outlook.com       0.75      0.75      0.75         4
+                paypal.com       1.00      1.00      1.00         3
+             pinterest.com       1.00      1.00      1.00         3
+                  pki.goog       0.00      0.00      0.00         4
+                    qq.com       1.00      1.00      1.00         4
+                reddit.com       1.00      1.00      1.00         4
+                roblox.com       0.75      0.75      0.75         4
+        rubiconproject.com       1.00      1.00      1.00         4
+               samsung.com       0.80      1.00      0.89         4
+         sciencedirect.com       1.00      1.00      1.00         3
+                 sentry.io       1.00      1.00      1.00         4
+            sharepoint.com       1.00      1.00      1.00         4
+                 skype.com       0.50      0.25      0.33         4
+              snapchat.com       1.00      0.50      0.67         2
+            soundcloud.com       1.00      1.00      1.00         3
+               spotify.com       1.00      1.00      1.00         3
+               t-online.de       1.00      1.00      1.00         4
+                      t.co       0.00      0.00      0.00         4
+                      t.me       1.00      0.75      0.86         4
+                telekom.de       1.00      1.00      1.00         3
+               telekom.net       1.00      1.00      1.00         4
+           theguardian.com       1.00      0.75      0.86         4
+                tiktok.com       1.00      1.00      1.00         4
+               tiktokv.com       0.00      0.00      0.00         4
+                trbcdn.net       0.00      0.00      0.00         4
+                tumblr.com       1.00      0.50      0.67         4
+               twitter.com       0.43      0.75      0.55         4
+                    ui.com       1.00      1.00      1.00         4
+               unity3d.com       0.00      0.00      0.00         4
+               userapi.com       0.57      1.00      0.73         4
+                 vimeo.com       1.00      1.00      1.00         4
+                    vk.com       0.50      0.25      0.33         4
+                    w3.org       1.00      1.00      1.00         4
+              whatsapp.com       0.60      1.00      0.75         3
+              whatsapp.net       1.00      0.50      0.67         4
+             wikipedia.org       1.00      1.00      1.00         4
+            wildberries.ru       1.00      1.00      1.00         4
+               windows.com       1.00      1.00      1.00         4
+               windows.net       0.00      0.00      0.00         4
+             wordpress.com       1.00      1.00      1.00         4
+             wordpress.org       0.60      0.75      0.67         4
+               workers.dev       0.00      0.00      0.00         4
+                     x.com       0.00      0.00      0.00         4
+                xiaomi.com       0.00      0.00      0.00         4
+                 yahoo.com       1.00      1.00      1.00         4
+                yandex.net       1.00      0.50      0.67         4
+                 yandex.ru       0.00      0.00      0.00         4
+                  youtu.be       0.33      0.25      0.29         4
+               youtube.com       0.40      0.50      0.44         4
+                   zoom.us       0.80      1.00      0.89         4
+
+                  accuracy                           0.77       511
+                 macro avg       0.75      0.78      0.75       511
+              weighted avg       0.74      0.77      0.74       511
