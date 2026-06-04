@@ -1,0 +1,140 @@
+url,max_intra,min_inter,url_mas_cercana,access_id_url,access_id_url_mas_cercana,riesgo_solape,solape_exacto,punto_solape_exacto
+baidu.com,5.385164807134504,0.0,myfritz.net,8,8,Sí,Sí,"baidu.com access_id=18 <-> workers.dev access_id=19 punto=(1, 62, 1)"
+blogspot.com,13.038404810405298,0.0,pki.goog,11,1,Sí,Sí,"blogspot.com access_id=11 <-> pki.goog access_id=20 punto=(1, 28, 5)"
+dzen.ru,3.0,0.0,yandex.net,13,3,Sí,Sí,"dzen.ru access_id=18 <-> yandex.ru access_id=19 punto=(11, 23, 1)"
+fbcdn.net,2.0,0.0,facebook.com,4,2,Sí,Sí,"fbcdn.net access_id=20 <-> facebook.com access_id=20 punto=(1, 7, 26)"
+forbes.com,8.246211251235321,0.0,tumblr.com,9,3,Sí,Sí,"forbes.com access_id=7 <-> wordpress.org access_id=15 punto=(1, 31, 23)"
+github.com,10.0,0.0,kaspersky.com,1,7,Sí,Sí,"github.com access_id=20 <-> roblox.com access_id=8 punto=(1, 94, 1)"
+github.io,7.0,0.0,meraki.com,1,16,Sí,Sí,"github.io access_id=19 <-> workers.dev access_id=20 punto=(1, 57, 1)"
+googlesyndication.com,1.0,0.0,googlevideo.com,1,3,Sí,Sí,"googlesyndication.com access_id=20 <-> googlevideo.com access_id=20 punto=(1, 16, 40)"
+googlevideo.com,2.0,0.0,googlesyndication.com,3,1,Sí,Sí,"googlevideo.com access_id=20 <-> googlesyndication.com access_id=20 punto=(1, 16, 40)"
+kaspersky.com,12.041594578792296,0.0,github.com,7,1,Sí,Sí,"kaspersky.com access_id=7 <-> roblox.com access_id=15 punto=(1, 95, 1)"
+meraki.com,9.848857801796104,0.0,github.io,6,5,Sí,Sí,"meraki.com access_id=16 <-> workers.dev access_id=11 punto=(1, 55, 1)"
+miui.com,5.0990195135927845,0.0,skype.com,1,10,Sí,Sí,"miui.com access_id=15 <-> skype.com access_id=19 punto=(1, 38, 1)"
+myfritz.net,9.0,0.0,baidu.com,8,8,Sí,Sí,"myfritz.net access_id=19 <-> baidu.com access_id=8 punto=(2, 62, 1)"
+roblox.com,10.0,0.0,github.com,1,5,Sí,Sí,"roblox.com access_id=15 <-> kaspersky.com access_id=7 punto=(1, 95, 1)"
+samsung.com,5.656854249492381,0.0,snapchat.com,4,13,Sí,Sí,"samsung.com access_id=15 <-> snapchat.com access_id=10 punto=(2, 30, 57)"
+skype.com,7.0,0.0,miui.com,3,12,Sí,Sí,"skype.com access_id=19 <-> miui.com access_id=15 punto=(1, 38, 1)"
+snapchat.com,3.0,0.0,samsung.com,8,15,Sí,Sí,"snapchat.com access_id=19 <-> samsung.com access_id=4 punto=(2, 31, 57)"
+t.me,3.0,0.0,github.io,3,10,Sí,Sí,"t.me access_id=17 <-> workers.dev access_id=1 punto=(1, 51, 1)"
+theguardian.com,6.0,0.0,zoom.us,17,2,Sí,Sí,"theguardian.com access_id=17 <-> zoom.us access_id=16 punto=(1, 48, 64)"
+tumblr.com,18.027756377319946,0.0,forbes.com,3,9,Sí,Sí,"tumblr.com access_id=19 <-> wordpress.org access_id=6 punto=(1, 30, 24)"
+twitter.com,6.0,0.0,x.com,2,5,Sí,Sí,"twitter.com access_id=19 <-> x.com access_id=19 punto=(2, 90, 1)"
+userapi.com,14.035668847618199,0.0,vk.com,5,7,Sí,Sí,"userapi.com access_id=15 <-> vk.com access_id=11 punto=(6, 153, 2)"
+vk.com,19.026297590440446,0.0,userapi.com,7,5,Sí,Sí,"vk.com access_id=11 <-> userapi.com access_id=15 punto=(6, 153, 2)"
+whatsapp.com,1.0,0.0,whatsapp.net,2,1,Sí,Sí,"whatsapp.com access_id=20 <-> whatsapp.net access_id=20 punto=(1, 19, 23)"
+whatsapp.net,3.1622776601683795,0.0,whatsapp.com,1,2,Sí,Sí,"whatsapp.net access_id=20 <-> whatsapp.com access_id=20 punto=(1, 19, 23)"
+wildberries.ru,2.0,0.0,meraki.com,4,15,Sí,Sí,"wildberries.ru access_id=4 <-> t.me access_id=19 punto=(1, 50, 1)"
+windows.net,6.0,0.0,baidu.com,2,6,Sí,Sí,"windows.net access_id=17 <-> workers.dev access_id=20 punto=(1, 57, 1)"
+wordpress.org,5.656854249492381,0.0,forbes.com,8,3,Sí,Sí,"wordpress.org access_id=16 <-> tumblr.com access_id=2 punto=(1, 32, 24)"
+workers.dev,13.0,0.0,baidu.com,4,1,Sí,Sí,"workers.dev access_id=20 <-> windows.net access_id=17 punto=(1, 57, 1)"
+x.com,8.0,0.0,twitter.com,1,4,Sí,Sí,"x.com access_id=19 <-> twitter.com access_id=19 punto=(2, 90, 1)"
+yandex.net,4.47213595499958,0.0,dzen.ru,3,13,Sí,Sí,"yandex.net access_id=16 <-> yandex.ru access_id=13 punto=(11, 25, 1)"
+yandex.ru,2.0,0.0,dzen.ru,3,3,Sí,Sí,"yandex.ru access_id=13 <-> yandex.net access_id=16 punto=(11, 25, 1)"
+youtu.be,11.180339887498949,0.0,youtube.com,1,1,Sí,Sí,"youtu.be access_id=16 <-> youtube.com access_id=6 punto=(1, 26, 60)"
+youtube.com,7.810249675906654,0.0,youtu.be,1,1,Sí,Sí,"youtube.com access_id=10 <-> youtu.be access_id=9 punto=(1, 28, 58)"
+zoom.us,4.47213595499958,0.0,theguardian.com,2,17,Sí,Sí,"zoom.us access_id=16 <-> theguardian.com access_id=17 punto=(1, 48, 64)"
+adobe.io,29.0,1.0,intuit.com,9,3,Sí,No,-
+android.com,5.0990195135927845,1.0,google-analytics.com,6,4,Sí,No,-
+apache.org,8.0,1.0,apple.com,4,5,Sí,No,-
+apple.com,3.0,1.0,apache.org,5,4,Sí,No,-
+archive.org,12.0,1.0,baidu.com,7,2,Sí,No,-
+casalemedia.com,10.0,1.0,nih.gov,15,10,Sí,No,-
+google.com,2.0,1.0,googlesyndication.com,11,17,Sí,No,-
+intuit.com,11.0,1.0,adobe.io,3,9,Sí,No,-
+nih.gov,8.0,1.0,casalemedia.com,3,16,Sí,No,-
+office365.com,14.0,1.0,sharepoint.com,2,1,Sí,No,-
+opera.com,6.0,1.0,meraki.com,10,2,Sí,No,-
+sharepoint.com,17.0,1.0,office365.com,1,2,Sí,No,-
+icloud.com,4.0,1.4142135623730951,gandi.net,8,1,Sí,No,-
+live.com,21.0,1.4142135623730951,outlook.com,1,20,Sí,No,-
+outlook.com,96.08850087289322,1.4142135623730951,live.com,20,1,Sí,No,-
+nginx.com,11.0,1.7320508075688772,outlook.com,5,6,Sí,No,-
+cloudflare-dns.com,3.0,2.0,android.com,3,15,Sí,No,-
+microsoft.com,10.0,2.0,nist.gov,5,7,Sí,No,-
+nist.gov,3.0,2.0,microsoft.com,2,6,Sí,No,-
+telekom.net,5.0,2.0,apache.org,1,7,Sí,No,-
+mozilla.org,5.0,2.449489742783178,opera.com,18,1,Sí,No,-
+lencr.org,4.0,3.0,yahoo.com,11,1,Sí,No,-
+nic.ru,18.708286933869708,3.0,windows.com,4,18,Sí,No,-
+windows.com,7.280109889280518,3.0,nic.ru,9,20,Sí,No,-
+office.com,17.804493814764857,3.1622776601683795,casalemedia.com,7,11,Sí,No,-
+linkedin.com,5.0990195135927845,3.7416573867739413,ui.com,9,17,Sí,No,-
+ui.com,7.615773105863909,3.7416573867739413,linkedin.com,17,9,Sí,No,-
+instagram.com,7.0,4.0,google.com,20,3,Sí,No,-
+paypal.com,7.280109889280518,4.123105625617661,ui.com,3,5,Sí,No,-
+wordpress.com,6.082762530298219,4.58257569495584,tumblr.com,17,1,Sí,No,-
+europa.eu,7.0710678118654755,6.082762530298219,wordpress.com,3,20,Sí,No,-
+criteo.com,12.649110640673518,7.483314773547883,outlook.com,19,17,Sí,No,-
+t-online.de,14.212670403551895,9.433981132056603,one.one,14,6,Sí,No,-
+qq.com,77.83315488916018,19.467922333931785,outlook.com,19,3,Sí,No,-
+pinterest.com,87.09190547921202,34.45286635390443,spotify.com,4,8,Sí,No,-
+mts.ru,35.0,34.49637662132068,tiktok.com,16,11,Sí,No,-
+tiktok.com,42.0,34.49637662132068,mts.ru,11,16,Sí,No,-
+bing.com,75.71657678474378,46.09772228646444,qq.com,7,15,Sí,No,-
+adnxs.com,0.0,0.0,adobe.com,1,1,No,Sí,"adnxs.com access_id=20 <-> xiaomi.com access_id=20 punto=(1, 8, 1)"
+adobe.com,0.0,0.0,adnxs.com,1,1,No,Sí,"adobe.com access_id=20 <-> xiaomi.com access_id=20 punto=(1, 8, 1)"
+amazon-adsystem.com,0.0,0.0,trbcdn.net,1,1,No,Sí,"amazon-adsystem.com access_id=20 <-> trbcdn.net access_id=20 punto=(3, 6, 1)"
+app-analytics-services.com,0.0,0.0,app-measurement.com,1,1,No,Sí,"app-analytics-services.com access_id=20 <-> googleusercontent.com access_id=20 punto=(1, 8, 2)"
+app-measurement.com,0.0,0.0,app-analytics-services.com,1,1,No,Sí,"app-measurement.com access_id=20 <-> googleusercontent.com access_id=20 punto=(1, 8, 2)"
+appsflyersdk.com,0.0,0.0,adnxs.com,1,1,No,Sí,"appsflyersdk.com access_id=20 <-> xiaomi.com access_id=20 punto=(1, 8, 1)"
+facebook.com,0.0,0.0,fbcdn.net,2,4,No,Sí,"facebook.com access_id=20 <-> fbcdn.net access_id=20 punto=(1, 7, 26)"
+forms.gle,0.0,0.0,adnxs.com,1,1,No,Sí,"forms.gle access_id=20 <-> xiaomi.com access_id=20 punto=(1, 8, 1)"
+goo.gl,0.0,0.0,okcdn.ru,1,1,No,Sí,"goo.gl access_id=20 <-> t.co access_id=20 punto=(1, 9, 1)"
+googleadservices.com,0.0,0.0,app-analytics-services.com,1,1,No,Sí,"googleadservices.com access_id=20 <-> googleusercontent.com access_id=20 punto=(1, 8, 2)"
+googleapis.com,0.0,0.0,app-analytics-services.com,1,1,No,Sí,"googleapis.com access_id=19 <-> googleusercontent.com access_id=20 punto=(1, 8, 2)"
+googletagmanager.com,0.0,0.0,app-analytics-services.com,1,1,No,Sí,"googletagmanager.com access_id=20 <-> googleusercontent.com access_id=20 punto=(1, 8, 2)"
+googleusercontent.com,0.0,0.0,app-analytics-services.com,1,1,No,Sí,"googleusercontent.com access_id=20 <-> googletagmanager.com access_id=20 punto=(1, 8, 2)"
+okcdn.ru,0.0,0.0,goo.gl,1,1,No,Sí,"okcdn.ru access_id=20 <-> t.co access_id=20 punto=(1, 9, 1)"
+pki.goog,0.0,0.0,blogspot.com,1,11,No,Sí,"pki.goog access_id=20 <-> blogspot.com access_id=11 punto=(1, 28, 5)"
+t.co,0.0,0.0,goo.gl,1,1,No,Sí,"t.co access_id=20 <-> okcdn.ru access_id=20 punto=(1, 9, 1)"
+tiktokv.com,0.0,0.0,adnxs.com,1,1,No,Sí,"tiktokv.com access_id=20 <-> xiaomi.com access_id=20 punto=(1, 8, 1)"
+trbcdn.net,0.0,0.0,amazon-adsystem.com,1,1,No,Sí,"trbcdn.net access_id=20 <-> amazon-adsystem.com access_id=20 punto=(3, 6, 1)"
+unity3d.com,0.0,0.0,adnxs.com,1,1,No,Sí,"unity3d.com access_id=20 <-> xiaomi.com access_id=20 punto=(1, 8, 1)"
+xiaomi.com,0.0,0.0,adnxs.com,2,1,No,Sí,"xiaomi.com access_id=20 <-> unity3d.com access_id=20 punto=(1, 8, 1)"
+cnn.com,0.0,1.0,goo.gl,1,1,No,No,-
+google-analytics.com,0.0,1.0,android.com,4,6,No,No,-
+gstatic.com,0.0,1.0,app-analytics-services.com,1,1,No,No,-
+health.mil,0.0,1.0,amazon-adsystem.com,1,1,No,No,-
+reddit.com,0.0,1.0,gstatic.com,1,1,No,No,-
+sciencedirect.com,0.0,1.0,wikipedia.org,1,2,No,No,-
+wikipedia.org,0.0,1.0,sciencedirect.com,2,1,No,No,-
+digicert.com,0.0,1.4142135623730951,sciencedirect.com,2,1,No,No,-
+gandi.net,0.0,1.4142135623730951,icloud.com,1,8,No,No,-
+gmail.com,0.0,1.4142135623730951,cnn.com,1,1,No,No,-
+googledomains.com,0.0,1.4142135623730951,gmail.com,1,1,No,No,-
+aliyuncs.com,0.0,2.0,adnxs.com,2,1,No,No,-
+applovin.com,1.0,2.0,cloudflare-dns.com,3,11,No,No,-
+doubleclick.net,2.0,2.0,android.com,3,1,No,No,-
+dns.google,0.0,2.23606797749979,digicert.com,1,2,No,No,-
+telekom.de,2.0,2.8284271247461903,youtube.com,14,7,No,No,-
+epicgames.com,0.0,3.0,medium.com,4,6,No,No,-
+medium.com,2.0,3.0,epicgames.com,6,4,No,No,-
+yahoo.com,1.0,3.0,lencr.org,1,11,No,No,-
+w3.org,0.0,3.1622776601683795,facebook.com,1,2,No,No,-
+sentry.io,2.8284271247461903,3.605551275463989,cloudflare-dns.com,1,11,No,No,-
+gravatar.com,0.0,4.123105625617661,forbes.com,2,11,No,No,-
+cloudflare.net,0.0,5.0,google.com,2,11,No,No,-
+nginx.org,0.0,5.0,health.mil,1,1,No,No,-
+adriver.ru,0.0,5.744562646538029,ntp.org,2,1,No,No,-
+ntp.org,2.0,5.744562646538029,adriver.ru,1,2,No,No,-
+one.one,4.123105625617661,9.433981132056603,t-online.de,6,14,No,No,-
+rubiconproject.com,5.0,10.295630140987,wordpress.com,12,2,No,No,-
+amazonvideo.com,6.782329983125268,11.357816691600547,samsung.com,10,7,No,No,-
+soundcloud.com,7.0,14.035668847618199,nic.ru,18,16,No,No,-
+linkos.bg,3.0,14.45683229480096,ntp.org,13,14,No,No,-
+bit.ly,7.280109889280518,16.15549442140351,zoom.us,13,17,No,No,-
+netflix.com,1.0,16.673332000533065,linkos.bg,4,13,No,No,-
+fastly.net,5.385164807134504,31.670175244226233,t-online.de,12,10,No,No,-
+discord.gg,4.0,32.7566787083184,paypal.com,8,17,No,No,-
+spotify.com,5.830951894845301,34.45286635390443,pinterest.com,8,4,No,No,-
+ivi.ru,31.064449134018133,34.48187929913333,vimeo.com,17,13,No,No,-
+vimeo.com,33.24154027718932,34.48187929913333,ivi.ru,13,17,No,No,-
+cloudflare.com,5.385164807134504,37.107950630558946,flickr.com,9,20,No,No,-
+flickr.com,8.06225774829855,37.107950630558946,cloudflare.com,20,9,No,No,-
+amazon.com,42.579337712087536,45.32107677449864,spotify.com,18,4,No,No,-
+mail.ru,17.029386365926403,51.778373863998475,vimeo.com,9,1,No,No,-
+azure.com,4.0,64.52906321960671,ivi.ru,8,15,No,No,-
+nytimes.com,9.0,80.46117075956576,mts.ru,14,7,No,No,-
+msn.com,24.859605789312106,151.5585695366646,nytimes.com,20,3,No,No,-
+dropbox.com,72.3394774656273,217.52011401247472,pinterest.com,3,15,No,No,-
