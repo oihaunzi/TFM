@@ -130,7 +130,7 @@ fig.update_layout(
     scene=dict(
         xaxis_title="H1",
         yaxis_title="H2",
-        zaxis_title="H2"
+        zaxis_title="H3"
     )
 )
 
